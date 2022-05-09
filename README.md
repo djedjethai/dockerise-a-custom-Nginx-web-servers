@@ -15,14 +15,14 @@ The Idea was to build an Nginx server with the only necessary modules
 - with-http_v2_module
 
 ## Securise the server
-Prevent traffic spike
-Max time to receive client headers/body
-Max time for the client accept/receive a response
+- Prevent traffic spike
+- Max time to receive client headers/body
+- Max time for the client accept/receive a response
 
 ## Optimise the server
-Limit buffer size for POST submissions
-Limit buffer size for Headers
-Skip buffering for static files
-Optimise sendfile packets
-Format the logs
-Compress server response
+- Limit buffer size for POST submissions
+- Limit buffer size for Headers
+- Skip buffering for static files
+- Optimise sendfile packets
+- Format the logs
+- Compress server response
